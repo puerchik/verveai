@@ -15,7 +15,7 @@ const httpsAgent = new Agent({ rejectUnauthorized: false })
 const giga = new GigaChat({
   timeout: 600,
   model: 'GigaChat',
-  credentials: process.env.GIGACHAT_CREDENTIALS!, // ← Твой ключ из кабинета
+  credentials: process.env.GIGACHAT_CREDENTIALS!,
   httpsAgent,
 })
 
